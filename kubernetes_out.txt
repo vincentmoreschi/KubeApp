@@ -1,0 +1,15 @@
+vincent@ksp-server:~$ kubectl get pods
+NAME         READY   STATUS    RESTARTS   AGE
+predictapp   1/1     Running   0          92s
+vincent@ksp-server:~$ ./run_kubernetes.sh
+WARNING! Your password will be stored unencrypted in /home/vincent/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Error from server (AlreadyExists): pods "predictapp" already exists
+NAME         READY   STATUS    RESTARTS   AGE
+predictapp   1/1     Running   0          102s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
