@@ -1,6 +1,6 @@
 
 # Template:
-[![Vincent](https://circleci.com/gitgub/vincentmoreschi/KubeApp.svg?style=svg)](https://circleci.com/gitgub/vincentmoreschi/KubeApp)
+[![Vincent](https://circleci.com/gh/vincentmoreschi/KubeApp.svg?style=svg)](https://circleci.com/gh/vincentmoreschi/KubeApp)
 
 
 ## Project Overview
